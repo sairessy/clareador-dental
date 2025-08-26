@@ -1,0 +1,48 @@
+section {
+  /* border: 1px solid green; */
+}
+
+form {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto;
+  justify-content: center;
+}
+
+form input, form select {
+  padding: 10px;
+  width: 100%;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+form input:focus, form select:focus {
+  border-color: red;
+}
+
+form button {
+  padding: 18px;
+  border: none;
+  background-color: red;
+  cursor: pointer;
+  color: #fff;
+  display: block;
+  margin: 10px;
+  border-radius: 5px;
+  width: 200px;
+}
+
+form label {
+  margin-left: 10px;
+}
+
+
+@media screen and (max-width: 414px) {
+
+  form {
+    width: 80%;
+  }
+}
